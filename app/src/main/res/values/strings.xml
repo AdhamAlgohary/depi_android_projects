@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GitHubRepoApp</string>
+    <string name="repo_screen_image_description">ImageForIconOfProgrammingLanguage</string>
+    <string name="details_screen_topAppBar_title">Details</string>
+    <string name="details_screen_back">BackToPreviousScreen</string>
+    <string name="details_screen_google_icon">GoogleIcon</string>
+    <string name="details_screen_programming_language">Python</string>
+    <string name="details_screen_number_of_stars">1254</string>
+    <string name="details_screen_number_of_fork">21</string>
+    <string name="details_screen_github_fork">Github fork logo</string>
+    <string name="details_screen_repo_description"></string>
+    <string name = "repo_page_app_bar_title">Github Repo</string>
+    <string name="issues_page_app_bar_title">Issues</string>
+    <string name="details_screen_txt_inside_btn">Show Issues</string>
+    <string name="app_bar_arrow_back_icon">Arrow back in app bar</string>
+    <string name="open">Open</string>
+    <string name="created_at">Created At : </string>
+</resources>
