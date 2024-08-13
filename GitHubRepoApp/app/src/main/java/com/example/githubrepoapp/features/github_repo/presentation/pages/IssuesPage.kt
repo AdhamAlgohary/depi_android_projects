@@ -64,7 +64,7 @@ fun IssuesPage() {
             createDate = dateFormat.format(Date())
         ), IssuesModel(
             issueName = "Security Vulnerability in Authentication",
-            owner = "Ethan",
+            owner = "Hady",
             createDate = dateFormat.format(Date())
         ), IssuesModel(
             issueName = "Security Vulnerability in Authentication",
