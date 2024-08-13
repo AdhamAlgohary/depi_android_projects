@@ -1,4 +1,5 @@
 package com.example.githubrepoapp.features.github_repo.presentation.items.repo_page
+
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -22,22 +23,24 @@ import com.example.githubrepoapp.features.github_repo.data.model.GithubRepoUiMod
 @Composable
 fun RepoItem(repoModel: GithubRepoUiModel) {
     Row(
-        modifier = Modifier.padding(5.dp)
-            .background(MaterialTheme.colorScheme.surface, shape = RoundedCornerShape(15.dp)).padding(vertical = 8.dp)
+        modifier = Modifier
+            .padding(5.dp)
+            .background(MaterialTheme.colorScheme.surface, shape = RoundedCornerShape(15.dp))
+            .padding(vertical = 8.dp)
 
     ) {
         Image(
             modifier = Modifier
                 .size(50.dp)
-                .padding( top = 15.dp,end = 5.dp),
+                .padding(top = 15.dp, end = 5.dp),
             painter = painterResource(
                 repoModel.avatar
             ), contentDescription = repoModel.description
         )
         Column {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(modifier = Modifier.weight(1F),text = repoModel.name)
-                Text( text = repoModel.stars.toString())
+                Text(modifier = Modifier.weight(1F), text = repoModel.name)
+                Text(text = repoModel.stars.toString())
                 Image(
                     modifier = Modifier
                         .size(50.dp)
@@ -65,7 +68,7 @@ private fun PreviewRepoItem() {
             1,
             "test",
             "Dart",
-            R.drawable.fluttericon,
+            0,
             "desc",
             5,
             20,

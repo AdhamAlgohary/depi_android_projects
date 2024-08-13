@@ -1,5 +1,4 @@
-package com.example.githubrepoapp.features.github_repo.data.model
-
+package com.example.githubrepoapp.features.issues.data.model
 
 data class IssuesModel (
     val issueName : String,

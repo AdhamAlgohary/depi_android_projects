@@ -1,5 +1,5 @@
-package com.example.githubrepoapp.features.github_repo.presentation.items.issues_page
 
+import com.example.githubrepoapp.features.issues.data.model.IssuesModel
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -20,7 +20,6 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.githubrepoapp.R
-import com.example.githubrepoapp.features.github_repo.data.model.IssuesModel
 
 @Composable
 fun IssuesItem(issuesModel: IssuesModel) {

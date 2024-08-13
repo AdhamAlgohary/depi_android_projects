@@ -5,9 +5,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.material3.ExperimentalMaterial3Api
+import com.example.githubrepoapp.core.items.NetworkWrongScreen
 import com.example.githubrepoapp.core.theme.GitHubRepoAppTheme
-import com.example.githubrepoapp.features.github_repo.presentation.pages.IssuesPage
-import com.example.githubrepoapp.features.github_repo.presentation.pages.RepoPage
 
 class MainActivity : ComponentActivity() {
 
@@ -17,7 +16,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             GitHubRepoAppTheme {
-IssuesPage()
+                NetworkWrongScreen()
             }
 
         }
